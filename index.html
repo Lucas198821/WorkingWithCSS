@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Drinks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div><img src="/img/logo.png" alt=""></div>
+        <nav>
+            <ul>
+                <li>INICIO</li>
+                <li>CONTACTO</li>
+                <li>NOVEDADES</li> 
+
+            </ul>
+        </nav>
+
+    </header>
+    <!--Carousel-->
+    <div class="carousel">
+        <div class="list">
+            <div class="item active" style="--background: #ADC696" >
+                <div class="content">
+                    Mojito
+                </div>
+                <img src="/img/fruit_mojito.png" alt="fruit background Mojito" class="fruit">
+            </div>
+            <div class="item" style="--background: #E9BA39">
+                <div class="content">
+                    Daiquiri
+                </div>
+                <img src="/img/fruit_daiquiri.png" alt="fruit background Daiquiri " class="fruit">
+            </div>
+            <div class="item hidden" style="--background: #B91E25">
+                <div class="content">
+                    Gin tonic
+                </div>
+            <img src="/img/fruit_gin.png" alt="fruit background Gin" class="fruit">
+            </div>
+        </div>
+        <div class="leaves"></div>
+        <div class="mockup"></div>
+        <div class="shadow"></div>
+        <div class="arrow">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
